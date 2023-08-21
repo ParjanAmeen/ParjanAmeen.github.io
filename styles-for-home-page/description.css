@@ -1,0 +1,52 @@
+.description-social {
+    background-color: rgb(218, 161, 161);
+    position: fixed;
+    right: 20px;
+    width: 500px;
+    height: 255px;
+    border-radius: 40px;
+
+}
+
+.socials-links {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.description {
+    color: rgb(255, 255, 255);
+    margin-right: 20px;
+    margin-left: 20px;
+    margin-bottom: 10px;
+    margin-top: 22px;
+    text-align: center;
+    
+    font-size: 30px;
+}
+
+.insta-logo,
+.youtube-logo,
+.tiktok-logo,
+.facebook-logo {
+    height: 70px;
+    margin-bottom: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+    
+}
+
+.tiktok-logo {
+    border-radius: 100px;
+}
+
+.tik-tok {
+    display:block;
+    /* margin-left: 80px; */
+}
+
+
+.insta{
+    display: block;
+    /* margin-right: 80px; */
+}
