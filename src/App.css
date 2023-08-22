@@ -1,0 +1,44 @@
+/* .App {
+  background-color: #eee;
+  width: 100vw;
+  height: 100vh;
+} */
+
+.search-bar-container {
+  /* padding-top: 20vh;
+  width: 40%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-width: 200px; */
+
+  margin: auto;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-between;
+  padding-bottom: 200px;
+   /* height: 5vh; You can adjust this to your preference */
+}
+
+
+/* Pulled from styles-for-home-page/header.css (Not targeting anything right now) */
+/* Center the search bar vertically and horizontally */
+.search-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 15vh; /* You can adjust this to your preference */
+  
+}
+/* Pulled from styles-for-home-page/header.css (Not targeting anything right now) */
+/* Style the search bar input */
+.search-bar {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: 600px; 
+  height: 50px;
+  font-size: 35px;
+}
