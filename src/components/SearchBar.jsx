@@ -2,12 +2,13 @@ import { useState } from "react";
 import { FaSearch } from "react-icons/fa";
 import "./SearchBar.css";
 
+
 export const SearchBar = ({ setResults }) => {
   const [input, setInput] = useState("");
 
   const fetchData = (value) => {
     // fetch("https://jsonplaceholder.typicode.com/users")
-    fetch("recipe-name.json")
+    fetch("/recipe-name.json")
       .then((response) => response.json())
       .then((json) => {
         const lowercaseValue = value.toLowerCase(); // Convert search value to lowercase
@@ -21,6 +22,7 @@ export const SearchBar = ({ setResults }) => {
         });
         setResults(results);
       });
+      
   };
 
   const handleChange = (value) => {
