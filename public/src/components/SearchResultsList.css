@@ -1,0 +1,15 @@
+.results-list {
+  /* width: 100%; */
+  width: 300px;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0px 0px 8px #ddd;
+  border-radius: 10px;
+  /* margin-top: 1rem; */
+  /* position: absolute; */
+  top: 100%; /* Position right under the search bar */
+  left: 0; /* Align with the search bar */
+  max-height: 300px;
+  overflow-y: auto;
+}

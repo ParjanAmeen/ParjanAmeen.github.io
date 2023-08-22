@@ -1,0 +1,23 @@
+/* .ingredients {
+    width
+} */
+
+.ingredients-title, 
+.recipe-title {
+    display: flex;
+    justify-content: center;
+    font-size: 127px;
+    
+}
+
+.ingredient-list,
+.recipe-list {
+    text-align: center;
+    font-size: 60px;
+    width: 50%;
+    margin: auto;
+    /* max-block-size: 200px; */
+    /* display: flex;
+    justify-content: center; */
+    /* color:#734F96; */
+}

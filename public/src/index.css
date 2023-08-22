@@ -1,0 +1,9 @@
+* {
+  margin: 0;
+  padding: 0;
+  background-image: url("../images/website-background.jpg"); 
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  min-width: 1000px;
+}

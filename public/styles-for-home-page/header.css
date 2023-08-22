@@ -1,0 +1,52 @@
+ body {
+  margin: 0;
+  padding: 0;
+  background-image: url("../images/website-background.jpg"); 
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  min-width: 1000px;
+} 
+
+.header {
+  display: flex;
+  /* align-items: center; */
+  padding: 20px;
+  background-color: rgb(218, 161, 161);
+  color: white;
+  border-radius: 100px;
+  text-align: center;  
+  min-width: 1000px;
+  margin-bottom: 50px;
+}
+
+.webpage-title{
+  flex-grow: 1;
+  text-align: center; 
+  font-size: 50px;
+  align-items: center;
+  /* margin-left: -300px; */
+  padding-left: 150px;
+  padding-right: 280px;
+  /* width: 500px; */
+}
+
+.profile-pic {
+  border-radius: 50%;
+  max-width: 100%;
+  height: auto;
+  min-width: 170px;
+  /* display:flex; */
+  /* object-fit: cover; */
+  /* margin-right: 20px; */
+}
+
+.header-title {
+  flex-grow: 1;
+  /* text-align: center;  */
+  font-size: 50px;
+  /* margin: 5px; */
+  /* margin: 0 auto; Automatically center the div horizontally */
+  /* right: -50px; */
+}
+
